@@ -1,5 +1,29 @@
 <?php
 
+$name = 'Brad';
+$age = 40;
+$has_kids = true;
+$cash_on_hand = 20.75;
+
+echo $age;
+echo $has_kids;
+var_dump($has_kids);
+echo $name . ' is ' . $age . 'years old';
+echo "${name} is ${age} years old";
+
+
+$x = '5' + '5';
+var_dump($x);
+echo 10 - 5;
+echo 5 * 6;
+echo 10 / 2;
+echo 10 % 3;
+
+define('HOST', 'localhost');
+define('DB_NAME', 'deb_db');
+
+echo HOST;
+
 /* ----- Variables & Data Types ----- */
 
 /* --------- PHP Data Types --------- */
